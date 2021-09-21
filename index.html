@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="bg"></div>
+<div class="flex-container">
+    <div class="input-div flex-item">
+        <input type="text" id="input-task">
+        <button id="add-task-button">Add a task</button>
+    </div>
+
+    <div class="task-list-div flex-item">
+        <ul id="task-list">
+            <li>
+                <input type="checkbox">
+                <span class="1-task task">Get up</span>
+                <button class="delete-btn">Delete task</button>
+            </li>
+            <li>
+                <input type="checkbox">
+                <span class="2-task task">Some anki notes</span>
+                <button class="delete-btn">Delete task</button>
+            </li>
+            <li>
+                <input type="checkbox">
+                <span class="3-task task">Some work done</span>
+                <button class="delete-btn">Delete task</button>
+            </li>
+        </ul>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

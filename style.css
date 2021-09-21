@@ -1,0 +1,68 @@
+.bg {
+    background: url("468206.jpg") center center no-repeat;
+    /*background: blue;*/
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    z-index: -1;
+    position: absolute;
+}
+
+body, html {
+    margin: 0;
+    color: #008D8F;
+}
+
+body {
+
+}
+
+ul {
+    list-style: none outside none;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 60vh;
+    width: auto;
+    position: relative;
+    right: 20%;
+}
+
+.flex-item {
+    min-width: 30vw;
+}
+
+.task-list-div {
+    position: relative;
+}
+.delete-btn {
+    position:relative;
+
+}
+
+.delete-btn,
+#add-task-button,
+#input-task{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#4eb5f1;
+    text-align:center;
+    transition: all 0.2s;
+}
+.delete-btn,
+#input-task:hover{
+    background-color:#4095c6;
+}
