@@ -41,8 +41,13 @@ ul {
 .task-list-div {
     position: relative;
 }
+li {
+    height: 40px;
+}
 .delete-btn {
-    position:relative;
+    position:absolute;
+    /*bottom: 0;*/
+    right: 0;
 
 }
 
