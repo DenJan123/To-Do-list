@@ -71,3 +71,7 @@ li {
 #input-task:hover{
     background-color:#4095c6;
 }
+
+.finished-task {
+    text-decoration: line-through;
+}
