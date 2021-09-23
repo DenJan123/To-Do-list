@@ -35,11 +35,13 @@ ul {
 }
 
 .flex-item {
-    min-width: 30vw;
+    flex-basis: 25px;
 }
 
 .task-list-div {
     position: relative;
+    width:300px;
+    /*background-color: #FFFFFF;*/
 }
 li {
     height: 40px;
@@ -72,6 +74,18 @@ li {
     background-color:#4095c6;
 }
 
+.delete-btn {
+    background-color: red;
+}
+.delete-btn:after {
+    content: "x";
+}
 .finished-task {
     text-decoration: line-through;
+}
+.task{
+    font-size: 20px;
+    background: -webkit-linear-gradient(#00FF3C, #FFC300);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
