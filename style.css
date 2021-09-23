@@ -82,10 +82,9 @@ li {
 }
 .finished-task {
     text-decoration: line-through;
+
 }
 .task{
     font-size: 20px;
-    background: -webkit-linear-gradient(#00FF3C, #FFC300);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #09C9FF;
 }
